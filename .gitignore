@@ -1,0 +1,29 @@
+# Dependencies and build output
+node_modules/
+dist/
+coverage/
+
+# Local configuration; publish only the placeholder example
+.env
+.env.*
+!.env.example
+.envrc
+*.local
+
+# Logs and generated state
+*.log
+*.tsbuildinfo
+.vercel/
+.netlify/
+supabase/.temp/
+supabase/.branches/
+
+# Local browser verification artifacts
+docs/screenshots/
+
+# Editor and operating-system files
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
